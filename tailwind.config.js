@@ -7,15 +7,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "rinn-primary": "#333333",
-        "rinn-shadow-light": "#3b3b3b",
-        "rinn-shadow-dark": "#2b2b2b",
+        "rinn-primary": "#000",
+        "rinn-shadow-dark": "#0d0d0e",
         "rinn-text-primary": "#F6F5F7",
+        "rinn-border": "#f6f5f726",
       },
       boxShadow: {
-        rounded: "7px 7px 14px #2b2b2b, -7px -7px 14px #3b3b3b",
+        rounded: "5px 5px 10px #001, -5px -5px 10px #0d0d0e",
         "rounded-click":
-          "inset 14px 14px 28px #2c2c2c, inset -14px -14px 28px #3a3a3a",
+          "inset 14px 14px 28px #001, inset -14px -14px 28px #0d0d0e",
       },
       fontFamily: {
         main: ["Satoshi-Variable", "sans-serif"],

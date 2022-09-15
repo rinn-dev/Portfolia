@@ -15,8 +15,13 @@ const Sidebar = ({ toggleSidebar }) => {
         <FaTimes className="text-lg" />
       </button>
       <div className="w-full px-8 flex flex-col items-center">
-        <div className="mb-6 rounded-full overflow-hidden w-[190px] h-[190px] md:w-[230px] md:h-[230px] xl:w-[190px] xl:h-[190px] shadow-rounded cursor-pointer transition-all duration-300 ease-in-out hover:scale-105">
-          <Image src="/images/rinn.png" width={230} height={230} />
+        <div className="mb-6 rounded-full overflow-hidden w-[190px] h-[190px] md:w-[230px] md:h-[230px] xl:w-[180px] xl:h-[180px] cursor-pointer transition-all duration-300 ease-in-out hover:scale-105 border-2 border-rinn-border">
+          <Image
+            src="/images/rinn.png"
+            width={230}
+            height={230}
+            alt="Fullstack Developer Htet Myat Linn"
+          />
         </div>
         <h1 className="text-rinn-text-primary font-main text-xl md:text-3xl xl:text-xl font-medium tracking-widest mb-2">
           Htet Myat Linn
