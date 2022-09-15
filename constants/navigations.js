@@ -40,16 +40,16 @@ export const socialNetworks = [
   {
     id: 1,
     link: "https://www.facebook.com/thegod.rin/",
-    icon: <FaFacebookF color="#3b5999" />,
+    icon: <FaFacebookF size={18} color="#14a1f9" />,
   },
   {
     id: 2,
     link: "https://github.com/rinn-dev",
-    icon: <FaGithub color="#3b5999" />,
+    icon: <FaGithub size={18} color="#ffffff" />,
   },
   {
     id: 3,
     link: "https://www.linkedin.com/in/htet-myat-rinn/",
-    icon: <FaLinkedin color="#0277b5" />,
+    icon: <FaLinkedin size={18} color="#0a66c2" />,
   },
 ];
