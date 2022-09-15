@@ -2,11 +2,8 @@ import CasualContentSection from "@components/CasualContentSection";
 import Layout from "@components/Layout";
 import React from "react";
 import { homepage } from "@constants/homepage";
-import { useRef } from "react";
 
 const index = () => {
-  const ref = useRef();
-
   return (
     <Layout>
       <div className="w-full relative">

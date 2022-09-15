@@ -5,7 +5,7 @@ export const homepage = {
     title: "Dig into my universe",
     paragraphs: [
       "I'm Htet Myat Linn, a full stack developer living in Yangon, Myanmar. I'm a young professional who is passionate about what I do. My area of expertise is providing digital services, such as landing pages, JAM stack websites & e-commerce web applications.",
-      "The key to effective design, in my opinion as a web developer, is striking the ideal balance between form and function. My objective is to produce elegant and user-friendly websites that support the commercial objectives of my clients. Please get in touch if you're seeking a web engineer who can assist you in growing your company. I am eager to begin working on your project!",
+      "The key to effective digital solution, in my opinion as a web developer, is striking the ideal balance between design and performance. My objective is to produce elegant and user-friendly websites that support the commercial objectives of my clients. Please get in touch if you're seeking a web engineer who can assist you in growing your company. I am eager to begin working on your project!",
     ],
     image: (
       <Image
