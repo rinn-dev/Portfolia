@@ -5,9 +5,7 @@ export const homepage = {
     title: (
       <>
         Dig into my{" "}
-        <span className="gradient-text from-[#adffa2] to-[#d70d0d]">
-          universe
-        </span>
+        <span className="gradient-text from-[#cf0] to-[#6ff]">universe</span>
       </>
     ),
     paragraphs: [

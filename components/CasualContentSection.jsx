@@ -12,7 +12,9 @@ const CasualContentSection = ({
       id={id}
     >
       <div className="lg:flex-1 font-main text-rinn-text-primary leading-loose">
-        <h2 className="text-3xl xl:text-[38px] font-bold capitalize mb-6 font-title fancy-font">{title}</h2>
+        <h2 className="text-3xl xl:text-[38px] font-bold capitalize mb-8 font-title fancy-font tracking-wide">
+          {title}
+        </h2>
         {paragraphs.map((para, index) => (
           <p
             className={`${
