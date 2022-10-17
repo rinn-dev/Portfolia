@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    "./constants/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -19,6 +20,7 @@ module.exports = {
       },
       fontFamily: {
         main: ["Satoshi-Variable", "sans-serif"],
+        title: ["Ping-2", "sans-serif"],
       },
       animation: {
         slideIn: "slideIn 0.7s ease-in-out",

@@ -6,9 +6,9 @@ import { FaFacebookF, FaGithub, FaLinkedin } from "react-icons/fa";
 export const sidebarItems = [
   {
     id: 1,
-    title: "Home",
+    title: "Base",
     icon: <BsPersonCircle />,
-    anchorId: "#home",
+    anchorId: "#my-universe",
   },
   {
     id: 2,

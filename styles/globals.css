@@ -11,3 +11,13 @@
 html {
   scroll-behavior: smooth;
 }
+
+@layer components {
+  .fancy-font {
+    @apply font-title;
+    font-feature-settings: "ss02" on;
+  }
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r;
+  }
+}

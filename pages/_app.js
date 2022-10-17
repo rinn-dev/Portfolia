@@ -1,4 +1,4 @@
-import "../public/fonts/Satoshi_Complete/Fonts/WEB/css/satoshi.css";
+import "../public/fonts/fonts.css";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
