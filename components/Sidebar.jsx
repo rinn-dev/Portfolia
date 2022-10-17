@@ -14,7 +14,7 @@ const Sidebar = ({ toggleSidebar }) => {
       >
         <FaTimes className="text-lg" />
       </button>
-      <div className="w-full px-8 flex flex-col items-center">
+      <div className="w-full px-8 xl:px-4 2xl:px-8 flex flex-col items-center">
         <div className="mb-6 rounded-full overflow-hidden w-[190px] h-[190px] md:w-[230px] md:h-[230px] xl:w-[180px] xl:h-[180px] cursor-pointer transition-all duration-300 ease-in-out hover:scale-105 border-2 border-rinn-border">
           <Image
             src="/images/rinn.png"

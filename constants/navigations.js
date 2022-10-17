@@ -24,12 +24,6 @@ export const sidebarItems = [
   },
   {
     id: 4,
-    title: "Services",
-    icon: <BiCodeBlock />,
-    anchorId: "#services",
-  },
-  {
-    id: 5,
     title: "Contact Me",
     icon: <MdConnectWithoutContact />,
     anchorId: "#contact",

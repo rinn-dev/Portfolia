@@ -5,7 +5,7 @@ const RecentWorks = ({projects}) => {
   return (
     <div
       className={`min-h-screen flex items-center px-8 xl:px-16 py-12 lg:py-0`}
-      id="#recent-works"
+      id="recent-works"
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-16 lg:gap-y-8 w-full">
         <div className="block md:hidden col-span-1">
@@ -24,7 +24,7 @@ const RecentWorks = ({projects}) => {
 };
 
 const RecentWorksTitle = () => (
-  <h3 className="text-2xl text-rinn-text-primary xl:text-2xl 2xl:text-3xl font-bold capitalize font-title fancy-font tracking-wide text-center lg:rotate-90">
+  <h3 className="text-3xl text-rinn-text-primary md:text-2xl 2xl:text-3xl font-bold capitalize font-title fancy-font tracking-wide text-center lg:rotate-90">
     <span className="hidden md:inline-block">Cool&nbsp;&nbsp;&nbsp;</span>Recent&nbsp;&nbsp;<span className="gradient-text from-[#cf0] to-[#6ff]">Works</span>
   </h3>
 );
