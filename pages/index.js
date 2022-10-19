@@ -5,10 +5,12 @@ import { homepage } from "@constants/homepage";
 import { projects } from "@constants/projects";
 import RecentWorks from "@components/RecentWorks";
 import ContactForm from "@components/ContactForm";
+import MetaTags from "@components/MetaTags";
 
 const index = () => {
   return (
     <Layout>
+      <MetaTags />
       <div className="w-full relative">
         <CasualContentSection data={homepage.intro} />
         <CasualContentSection data={homepage.about} />

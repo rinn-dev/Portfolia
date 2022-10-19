@@ -7,7 +7,7 @@ import { FaTimes } from "react-icons/fa";
 
 const Sidebar = ({ toggleSidebar }) => {
   return (
-    <div className="min-h-full relative w-full flex justify-center items-center py-16">
+    <div className="min-h-full relative w-full flex justify-center items-center py-16 xl:py-6 2xl:py-16">
       <button
         onClick={() => toggleSidebar((value) => !value)}
         className="xl:hidden absolute right-7 top-7 flex items-center justify-center bg-rinn-primary text-rinn-text-primary shadow-rounded rounded-full font-main hover:scale-[0.94] transition-all duration-300 ease-in-out cursor-pointer active:shadow-rounded-click w-[40px] h-[40px]"
@@ -15,7 +15,7 @@ const Sidebar = ({ toggleSidebar }) => {
         <FaTimes className="text-lg" />
       </button>
       <div className="w-full px-8 xl:px-4 2xl:px-8 flex flex-col items-center">
-        <div className="mb-6 rounded-full overflow-hidden w-[190px] h-[190px] md:w-[230px] md:h-[230px] xl:w-[180px] xl:h-[180px] cursor-pointer transition-all duration-300 ease-in-out hover:scale-105 border-2 border-rinn-border">
+        <div className="mb-6 rounded-full overflow-hidden w-[190px] h-[190px] md:w-[230px] md:h-[230px] xl:w-[150px] xl:h-[150px] 2xl:w-[180px] 2xl:h-[180px] cursor-pointer transition-all duration-300 ease-in-out hover:scale-105 border-2 border-rinn-border">
           <Image
             src="/images/rinn.png"
             width={230}
@@ -36,6 +36,9 @@ const Sidebar = ({ toggleSidebar }) => {
                 anchorId={item.anchorId}
                 icon={item.icon}
                 title={item.title}
+                onClick={() => {
+                  toggleSidebar(false);
+                }}
               />
             </li>
           ))}

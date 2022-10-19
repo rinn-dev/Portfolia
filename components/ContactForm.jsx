@@ -4,7 +4,7 @@ const ContactFormSection = () => {
   return (
     <div
       id="contact"
-      className="min-h-screen flex items-center justify-center px-8 xl:px-16 py-12 lg:py-0"
+      className="min-h-screen flex items-center justify-center px-8 xl:px-16 py-16 lg:py-20"
     >
       <div className="flex flex-col items-center text-rinn-text-primary">
         <p className="opacity-75 text-base font-title leading-relaxed tracking-wide uppercase mb-4">
@@ -49,6 +49,7 @@ const ContactForm = () => {
         <input
           type="email"
           id="email"
+          name="email"
           className="shadow-sm bg-rinn-border text-rinn-text-primary text-base rounded-lg block w-full p-2.5 placeholder-gray-400"
           placeholder="name@domain.com"
           required
@@ -63,6 +64,7 @@ const ContactForm = () => {
         </label>
         <input
           type="text"
+          name="subject"
           id="subject"
           className="block p-3 w-full text-base text-rinn-text-primary bg-rinn-border rounded-lg shadow-sm placeholder-gray-400 "
           placeholder="Let me know how I can help you"
@@ -79,6 +81,7 @@ const ContactForm = () => {
         <textarea
           id="message"
           rows="6"
+          name="message"
           className="block p-2.5 w-full text-base text-rinn-text-primary bg-rinn-border rounded-lg shadow-sm  placeholder-gray-400 "
           placeholder="Leave a comment..."
         ></textarea>

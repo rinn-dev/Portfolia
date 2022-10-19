@@ -4,7 +4,7 @@ import ProjectCard from "@components/Cards/ProjectCard";
 const RecentWorks = ({projects}) => {
   return (
     <div
-      className={`min-h-screen flex items-center px-8 xl:px-16 py-12 lg:py-0`}
+      className={`min-h-screen flex items-center px-8 xl:px-16 py-12 lg:py-20`}
       id="recent-works"
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-16 lg:gap-y-8 w-full">
