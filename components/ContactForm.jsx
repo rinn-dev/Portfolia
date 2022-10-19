@@ -11,7 +11,7 @@ const ContactFormSection = () => {
           Whats Next
         </p>
         <h3 className="text-[28px] md:text-3xl xl:text-[38px] font-bold capitalize mb-8 font-title fancy-font tracking-wide gradient-text from-[#f36] to-[#f90]">
-          Let's Work Together
+          Let&apos;s Work Together
         </h3>
         <div className="max-w-[700px] mx-auto text-center">
           <p className="text-lg md:text-xl font-main mb-2 opacity-70 leading-relaxed">
@@ -35,7 +35,8 @@ const ContactFormSection = () => {
 const ContactForm = () => {
   return (
     <form
-      action="#"
+      action="https://formsubmit.co/htetmyatrinnn.work@gmail.com"
+      method="POST"
       className="space-y-8 font-main w-full max-w-[500px] mx-auto my-16 [&_label]:text-rinn-text-primary [&_label]:opacity-70 [&_input]:focus-visible:outline-none"
     >
       <div>
