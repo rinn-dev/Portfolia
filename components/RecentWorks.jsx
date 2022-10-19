@@ -25,7 +25,7 @@ const RecentWorks = ({projects}) => {
 
 const RecentWorksTitle = () => (
   <h3 className="text-3xl text-rinn-text-primary md:text-2xl 2xl:text-3xl font-bold capitalize font-title fancy-font tracking-wide text-center lg:rotate-90">
-    <span className="hidden md:inline-block">Cool&nbsp;&nbsp;&nbsp;</span>Recent&nbsp;&nbsp;<span className="gradient-text from-[#cf0] to-[#6ff]">Works</span>
+    <span className="hidden md:inline-block">Cool&nbsp;&nbsp;&nbsp;</span>Recent&nbsp;&nbsp;<span className="gradient-text from-[#5f99ff] to-[#53db67]">Works</span>
   </h3>
 );
 
